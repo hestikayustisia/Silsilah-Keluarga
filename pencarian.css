@@ -1,0 +1,132 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: Georgia, Times, serif;
+}
+.header{
+    width: 100%;
+    height: 120px;
+    background-color: #009900;
+}
+
+.header h5{
+    padding-top: 15px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+    font-size: 45px;
+    color: #000;
+    font-family: Arial;
+}
+.header h6{
+    padding-left: 20px;
+    padding-bottom: 15px;
+    font-size: 20px;
+    color: #000;
+    font-family: Arial;
+}
+/*MENU*/
+nav.menu ul li {
+	margin:0;
+	float:left;
+}
+nav.menu ul a {
+	padding:25px;
+	display:block; /*display = membuat baris baru pada elemen*/
+	font-size: 16px;
+	color:#000000;
+	text-decoration: none;
+	text-align:center;
+}
+nav.menu ul a:hover {
+	text-decoration: underline;
+	background:snow;
+}
+nav.menu ul {
+	width: 100%;
+	float:inherit;
+	list-style: none;
+}
+nav.menu li{
+	width: 170px;
+    float: left;
+}
+nav.menu li a{
+    color: #000000;
+    display: block;
+    font: 12px arial;
+    border-top: 1px snow solid;
+    padding: 9px 20px;
+    text-decoration: none;
+    position: center;
+}
+.wrap {
+	background-color:#009900; 
+	height:34px; 
+	line-height:50px; 
+	position:relative;
+	width:auto;
+	margin:auto;
+}
+figure{
+	float: right;
+	height: 310px;
+	margin : 20px;
+	border-left: solid 3px #000;
+	padding-left: 50px;
+	padding-top: 30px; 
+	padding-bottom: 35px;
+	padding-right: 40px;
+}
+
+/*search*/
+form {
+    width:300px auto;
+    margin-left: 100px ;
+    margin-top: 10px;
+    margin-right: 30px;
+}
+.search {
+    padding:8px 15px;
+    background:rgba(50, 50, 50, 0.2);
+    border:0px solid #009900;
+}
+.button {
+    position:relative;
+    padding:6px 15px;
+    left:-8px;
+    border:1px solid #009900;
+    background-color:#009900;
+    color:#fff;
+}
+.button:hover  {
+    background-color:#fafafa;
+    color:#009900;
+}
+
+h1 {
+	margin-top: 30px;
+	margin-left: 100px;
+	font-size: 32px;
+}
+h2{
+	margin-top: 5px;
+	margin-left: 100px;
+	margin-bottom: 5px;
+	font-size: 32px;
+}
+footer{
+	background-color: #009900;
+	height: 30px;
+	margin-top: 300px;
+}
+#sosmed{
+	margin-top: 40px;
+}
+h3, h4{
+	font-size: 12px;
+}
+hgroup{
+	margin-top: 8px;
+}

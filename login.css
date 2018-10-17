@@ -1,0 +1,126 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: Georgia, Times, serif;
+}
+.header{
+    width: 100%;
+    height: 120px;
+    background-color: #009900;
+}
+
+.header h5{
+    padding-top: 15px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+    font-size: 45px;
+    color: #000;
+    font-family: Arial;
+}
+.header h6{
+    padding-left: 20px;
+    padding-bottom: 15px;
+    font-size: 20px;
+    color: #000;
+    font-family: Arial;
+}
+/*MENU*/
+nav.menu ul li {
+	margin:0;
+	float:left;
+}
+nav.menu ul a {
+	padding:25px;
+	display:block; /*display = membuat baris baru pada elemen*/
+	font-size: 16px;
+	color:#000000;
+	text-decoration: none;
+	text-align:center;
+}
+nav.menu ul a:hover {
+	text-decoration: underline;
+	background:snow;
+}
+nav.menu ul {
+	width: 100%;
+	float:inherit;
+	list-style: none;
+}
+nav.menu li{
+	width: 170px;
+    float: left;
+}
+nav.menu li a{
+    color: #000000;
+    display: block;
+    border-top: 1px snow solid;
+    font: 12px arial;
+    padding: 9px 20px;
+    text-decoration: none;
+    position: center;
+}
+.wrap {
+	background-color:#009900; 
+	height:34px; 
+	line-height:50px; 
+	position:relative;
+	width:auto;
+	margin:auto;
+}
+
+/*BERANDA*/
+figure{
+	float: right;
+	height: 260px;
+	padding: 5px;
+	margin: 20px;
+	border-left: solid 3px #000;
+	padding-left: 30px;
+	padding-top: 30px; 
+	padding-bottom: 35px;
+	padding-right: 40px;
+}
+footer{
+	background-color: #009900;
+	height: 30px;
+	margin-top: 370px;
+}
+#sosmed{
+	margin-top: 40px;
+}
+h3, h4{
+	font-size: 12px;
+}
+hgroup{
+	margin-top: 8px;
+}
+
+#login{
+	float:right;
+	width:370px;
+	padding:10px 10px 0 0;
+	font: Segoe UI;
+	margin-right: 90px;
+}
+#login table{
+	position: center;
+	margin-top: 50px;
+	margin-left: 90px;
+	font:normal 15px Segoe UI;
+	color:#0000;
+	margin-right: 90px;
+	height: 70px;
+	width: 500px;
+	font-weight: 20px;
+}
+input[type=submit]{
+	margin-top: 20px;
+	background: #009900;
+	border-color: #009900;
+	height: 35px;
+	width: 50px;
+	padding: center;
+	color: black;
+}
